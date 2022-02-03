@@ -15,7 +15,12 @@
         <Description>Chromium is an arcade shoot-em-up game with ship upgrade possibilities that needs a 3D-accelerated graphics card.</Description>
         <Archive sha1sum="5efd282aecd6eee1e061eda1e5c1de4251dc6125" type="targz">https://sourceforge.net/projects/chromium-bsu/files/Chromium%20B.S.U.%20source%20code/chromium-bsu-0.9.16.1.tar.gz/download</Archive>
         <BuildDependencies>
-            
+            <Dependency>fontconfig-devel</Dependency>
+            <Dependency>freealut-devel</Dependency>
+            <Dependency>freeglut-devel</Dependency>
+            <Dependency>ftgl-devel</Dependency>
+            <Dependency>openal-devel</Dependency>
+            <Dependency>sdl_image-devel</Dependency>
         </BuildDependencies>
         <Patches>
             <Patch level="1">desktop.patch</Patch>
