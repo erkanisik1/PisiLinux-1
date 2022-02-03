@@ -8,7 +8,7 @@ from pisi.actionsapi import autotools
 from pisi.actionsapi import pisitools
 
 def setup():
-    autotools.configure('--with-font-path="/usr/share/fonts/dejavu/DejaVuSerif-Bold.ttf"')
+    autotools.configure()
 
 def build():
     autotools.make()
